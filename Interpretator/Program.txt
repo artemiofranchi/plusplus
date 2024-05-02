@@ -1,0 +1,42 @@
+program{
+	struct A{
+    		int x;
+    	};
+    	A q, w;
+    	int a, b, c;
+    	string str, str1;
+    	bool t;
+    	q.x = 1;
+    	str="qqq";
+    	str1="www";
+    	/*w.x = 5;*/
+    	w=q;
+    	write(q.x+w.x);
+	a = 1;
+	write("1">"2");
+	write(str>str1);
+
+
+L1:
+    write("we in L1");
+    goto L2;
+L2:
+    write("we in L2");
+    c = a*b;
+    write(c);
+    a = c / 2;
+    write(a);
+    
+    read(str);
+    write(str);
+    t=a<5;
+    write(t);
+}@
+
+
+
+
+
+
+
+

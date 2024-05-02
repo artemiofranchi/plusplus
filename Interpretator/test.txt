@@ -1,0 +1,47 @@
+program{
+	struct A{
+		int x;
+	};
+	A y;
+	A u;
+	int example = 1234;
+    	string b;
+    	string str = "string";
+    	int i = 5;
+    	int q = 0;
+    	bool p;
+    	string c = "a1bc";
+    	write(str < c);
+    	while(i > 0)
+    	{
+    		i = i - 1;
+    	}
+    	y.x = 3;
+    	u = y;
+    	write(u.x);
+    	write(y.x);
+    	write(-example);
+    	/*
+    	q = q + 3;
+    	*/
+    	if (i > example){
+    		goto M1;
+    	}
+    	else{
+    		goto M2;
+    	}
+M1:
+	write("I am here");
+	goto M3;
+M2:
+	write("No, here");
+	goto M3;
+M3:
+	read(b);
+	read(i);
+	read(p);
+	write(b);
+	write("Something");
+	write(q);
+
+}@
